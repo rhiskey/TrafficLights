@@ -40,7 +40,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wM3-VX-4Fa">
-                                <rect key="frame" x="20" y="806" width="374" height="56"/>
+                                <rect key="frame" x="70" y="806" width="275" height="56"/>
                                 <color key="backgroundColor" systemColor="tintColor"/>
                                 <color key="tintColor" systemColor="systemBlueColor"/>
                                 <state key="normal" title="Button"/>
@@ -57,10 +57,10 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Snd-Iv-PD8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="901-hg-NWI"/>
-                            <constraint firstItem="wM3-VX-4Fa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="K8S-gb-BHo"/>
                             <constraint firstItem="Snd-Iv-PD8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="KJe-zF-daA"/>
+                            <constraint firstItem="wM3-VX-4Fa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="gH4-2m-zDW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wM3-VX-4Fa" secondAttribute="bottom" id="mOQ-3m-Hv0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wM3-VX-4Fa" secondAttribute="trailing" constant="20" id="rKC-oV-amQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wM3-VX-4Fa" secondAttribute="trailing" constant="69" id="ssV-Ta-7Oa"/>
                         </constraints>
                     </view>
                     <connections>
