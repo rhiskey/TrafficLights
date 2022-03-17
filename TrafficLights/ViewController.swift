@@ -30,17 +30,22 @@ class ViewController: UIViewController {
         
         switchLightsButton.layer.cornerRadius = 16
         
-        redLightView.layer.cornerRadius = lightsCornerRadius
-        yellowLightView.layer.cornerRadius = lightsCornerRadius
-        greenLightView.layer.cornerRadius = lightsCornerRadius
-        
         redLightView.alpha = isOff
         yellowLightView.alpha = isOff
         greenLightView.alpha = isOff
     }
+    
+    override func viewWillLayoutSubviews() {
+        redLightView.layer.cornerRadius = redLightView.frame.width / 2
+        yellowLightView.layer.cornerRadius = redLightView.frame.width / 2
+        greenLightView.layer.cornerRadius = redLightView.frame.width / 2
+    }
 
     @IBAction func switchingLightsButton() {
-
+        if switchLightsButton.currentTitle == "Start" {
+            switchLightsButton.setTitle("Next", for: .normal)
+        }
+        
         switch currentLight {
         case .red:
             greenLightView.alpha = isOff
@@ -53,12 +58,13 @@ class ViewController: UIViewController {
         case .green:
             yellowLightView.alpha = isOff
             greenLightView.alpha = isOn
-
             currentLight = .red
         }
 
-        switchLightsButton.setTitle("Next", for: .normal)
     }
     
 }
 
+//extension ViewController {
+//    privat enum
+//}

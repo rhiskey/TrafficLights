@@ -59,6 +59,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Snd-Iv-PD8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0y1-R0-vD7"/>
                             <constraint firstItem="Snd-Iv-PD8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="901-hg-NWI"/>
                             <constraint firstItem="Snd-Iv-PD8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="KJe-zF-daA"/>
                             <constraint firstItem="wM3-VX-4Fa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="gH4-2m-zDW"/>
